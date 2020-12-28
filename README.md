@@ -83,7 +83,7 @@ The deblurred results of our network for the datasets reported in the paper can 
 * This repository only contains the "vanilla" prediction code for now, i.e. it doesn't use the *Scale Optimized Networks* (see the paper for more details)
 * The kernel generation code will be added soon
 * The *Scale Optimized Networks* and training code will be hopefully be added as well
-* In case your are interested in compare your work to this work on new dataset, please send us the blurry images so we can deblur them using the *Scale Optimized Networks* (until the relevant code is added here)
+* In case your are interested to compare your work to this work on a new dataset, please send us the blurry images so we can deblur them using the *Scale Optimized Networks* (until the relevant code is added here)
 
 
 ## BibTeX
