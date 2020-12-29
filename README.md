@@ -72,7 +72,7 @@ To recreate the results from [Deblurring Examples](#deblurring-examples) above:
                             by side) (default: False)
 
 ## Environment 
-To create the virtual environment with the required packages to run the code do the following:
+To create a virtual environment with the required packages to run the code do the following:
 
 1.  Create a virtual environment named "deblurring-env" (in the current working directory):
 
