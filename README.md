@@ -94,7 +94,7 @@ To create a virtual environment with the required packages to run the code do th
    switch `requirements.txt` with `requirements_tf_1.15.0.txt` or `requirements_tf_2.3.0.txt`:
    
     * `requirements_tf_1.5.0.txt` - install an environment with tensorflow 1.15.0 which works with CUDA 10.0 and cuDNN 7.4
-    * `requirements_tf_1.5.0.txt` - install an environment with tensorflow 2.3.0 which works with CUDA 10.1 and cuDNN 7.6
+    * `requirements_tf_2.3.0.txt` - install an environment with tensorflow 2.3.0 which works with CUDA 10.1 and cuDNN 7.6
     
 Note that the above won't install any cuda environment and they need to be installed separately
 
