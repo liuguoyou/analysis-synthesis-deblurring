@@ -71,6 +71,33 @@ To recreate the results from [Deblurring Examples](#deblurring-examples) above:
       --side_by_side, -sbs  Should the result image include both the input the deblurred image (i.e. the saved image would be the blurry and deblurred images side
                             by side) (default: False)
 
+## Environment 
+To create the virtual environment with the required packages to run the code do the following:
+
+1.  Create a virtual environment named "deblurring-env" (in the current working directory):
+
+        python3 -m venv deblurring-env
+        
+2. Activate the virtual environment:
+    * On windows:
+        
+            deblurring-env\Scripts\activate.bat        
+    * On linux/MacOS
+    
+            source deblurring-env/bin/activate
+      (If you use the csh or fish shells, there are alternate activate.csh and activate.fish scripts you should use instead.)
+    
+3. Install the requirements
+
+        python -m pip install -r requirements.txt
+        
+   switch `requirements.txt` with `requirements_tf_1.15.0.txt` or `requirements_tf_2.3.0.txt`:
+   
+    * `requirements_tf_1.5.0.txt` - install an environment with tensorflow 1.15.0 which works with CUDA 10.0 and cuDNN 7.4
+    * `requirements_tf_1.5.0.txt` - install an environment with tensorflow 2.3.0 which works with CUDA 10.1 and cuDNN 7.6
+    
+Note that the above won't install any cuda environment and they need to be installed separately
+
 
 ## Results
 The deblurred results of our network for the datasets reported in the paper can be downloaded from the following links:
@@ -87,7 +114,7 @@ The deblurred results of our network for the datasets reported in the paper can 
 
 
 ## BibTeX
-    ﻿@article {Kaufman20,
+    @article {Kaufman20,
     author = {Kaufman, Adam, and Fattal, Raanan},
     title = {Deblurring using Analysis-Synthesis Networks Pair},
     journal = {Computer Vision and Pattern Recognition (CVPR)}},
